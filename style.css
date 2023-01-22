@@ -1,0 +1,53 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&family=Roboto&display=swap');
+
+
+/* Common Section */
+section>h1{
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+
+
+
+
+/* Banner Section */
+.pf-banner-header{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+
+.pf-banner-btn{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+}
+
+.pf-banner-btn:hover{
+    background: linear-gradient(180deg, #b5d72b 0%, #94b70b 100%);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.105);
+}
+
+/* PF Support Section */
+
+/* Media Query */
+
+/* for small to medium devices */
+@media screen and (max-width:991px) {
+    .pf-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .pf-navbar ul{
+        column-gap: 20px;
+    }
+    .pf-support-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
